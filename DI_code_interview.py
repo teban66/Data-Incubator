@@ -1,7 +1,7 @@
 #*************************************************************************
 #
-# Python script that calculates the Fibonnaci sequence gnerating a new
-# sequence based just on even number.
+# Python script that calculates the Fibonacci sequence of even numbers
+# 
 # This script is created to support my application to the Data Incubator
 # fellowship program.
 # 
@@ -17,7 +17,7 @@ class even_Fib_class:
     Class that computes the mth term of the even Fibonacci sequence using memoization
     '''
     
-    # Init method: Initial values of the Fibonnaci sequence
+    # Init method: Initial values of the Fibonacci sequence
     def __init__(self):
         self.memo = [0, 2]
     
